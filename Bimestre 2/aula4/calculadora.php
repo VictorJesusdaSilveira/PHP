@@ -18,18 +18,20 @@ class Calculadora{
     public function Subtracao(){
         $subtracao = $this -> numA - $this -> numB;
         print("Essa é a subtração dos números: " . $subtracao);
+        return $subtracao;
     }
 
     public function Multiplicacao(){
         $multiplicacao = $this -> numA * $this -> numB;
         print("Essa é a multiplicação dos números: " . $multiplicacao);
+        return multiplicacao;
 
     }
 
     public function Divisao(){
         $divisao = $this -> numA / $this -> numB;
         print("Essa é a divisão dos números: " . $divisao);
-
+        return divisao;
     }
     /**
      * Get the value of numA
