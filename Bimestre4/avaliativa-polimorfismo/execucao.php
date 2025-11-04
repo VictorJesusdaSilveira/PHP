@@ -38,9 +38,13 @@ do {
             print  $n . "\n";
         }
     } else if ($opcao == 5) {
+        $media = 0;
         foreach ($notas as $n) {
-            print $n -> getNotaFinal() / 3;
-            break;
+            $media = $media + $n -> getNotaFinal();
+            
         }
+
+        print $media / count($notas) . "\n";
+            break;
     }
 }while ($opcao != 0);
