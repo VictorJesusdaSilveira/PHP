@@ -39,7 +39,8 @@ do {
         }
     } else if ($opcao == 5) {
         foreach ($notas as $n) {
-            print $n / 3;
+            print $n -> getNotaFinal() / 3;
+            break;
         }
     }
 }while ($opcao != 0);
