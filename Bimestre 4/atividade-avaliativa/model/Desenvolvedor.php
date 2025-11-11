@@ -4,8 +4,7 @@ require_once("Funcionario.php");
 class Desenvolvedor extends Funcionario {
 
     public function getCalcularSalario(){
-           return 1500.00 * 2.3;
-     
+        return 1500.00 * 2.3;
     }
 
 
